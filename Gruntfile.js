@@ -5,7 +5,7 @@ module.exports = function(grunt){
     				options: {
      					baseUrl: "./",
       					mainConfigFile: "js/main.js",
-      					name: "",
+      					name: "js/main.js",
       					out: "js/optimized.js"
     				}
   			}
@@ -14,5 +14,5 @@ module.exports = function(grunt){
 
 	grunt.loadNpmTasks('grunt-contrib-requirejs');
 
-	grunt.registerTask('default', ['requirejs');
+	grunt.registerTask('default', ['requirejs']);
 };
