@@ -1,0 +1,26 @@
+{
+  "name": "requirejs-example",
+  "version": "0.0.1",
+  "description": "The example of requirejs",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt": "~0.4.2",
+    "connect": "~2.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noppanit/requirejs-optimization-example.git"
+  },
+  "keywords": [
+    "requirejs",
+    "optimizer"
+  ],
+  "author": "Noppanit Charassinvichai",
+  "license": "BSD",
+  "gitHead": "d996d14c2778fd59c1b7859a3bafffd4324c4508"
+}
