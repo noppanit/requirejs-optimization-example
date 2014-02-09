@@ -1,10 +1,10 @@
 require.config({
-	baseUrl: './',
+	baseUrl: './js',
 	paths: {
-		'jquery': 'js/vendors/jquery/jquery-1.11.0',
-		'knockout': 'js/vendors/knockout/knockout-3.0.0',
-		'main-viewmodel': 'js/viewmodels/main_viewmodel',
-		'main-call': 'js/viewmodels/main_call',
+		'jquery': 'vendors/jquery/jquery-1.11.0',
+		'knockout': 'vendors/knockout/knockout-3.0.0',
+		'main-viewmodel': 'viewmodels/main_viewmodel',
+		'main-call': 'viewmodels/main_call',
 	}
 	
 });

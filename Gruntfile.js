@@ -4,6 +4,9 @@ module.exports = function(grunt){
  			compile: {
     				options: {
      					baseUrl: "./js",
+					paths: {
+						'knockout': 'vendors/knockout/knockout-3.0.0'
+					},
       					mainConfigFile: "js/config.js",
       					name: "application",
       					out: "js/optimized.js"

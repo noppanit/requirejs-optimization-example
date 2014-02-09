@@ -1,3 +1,3 @@
 require(['config'], function() {
-	require(['main-call']);
+	require(['main-call','knockout']);
 });
