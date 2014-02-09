@@ -1,3 +1,3 @@
-require(['main'], function() {
+require(['config'], function() {
 	require(['main-call']);
 });
